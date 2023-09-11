@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .outerDiv{
+        border: 2px solid black;
+        width: 1000px;
+        height: 1000px;
+        flex-direction: column;
+        display: flex;
+    }
+    .outerDiv p,h3{
+        display: flex;
+        justify-content: center;
+    }
+    .green{
+        margin-top: 50px;
+        height: 80px;
+        width: 100px;
+        background-color: green;
+    }
+    .green:hover{
+        width: 450px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+    }
+
+    .blue{
+        margin-top: 50px;
+        height: 80px;
+        width: 100px;
+        background-color: blue;
+    }
+    .blue:hover{
+        width: 450px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+    }
+
+    .red{
+        margin-top: 50px;
+        height: 80px;
+        width: 100px;
+        background-color: red;
+    }
+    .red:hover{
+        width: 450px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+    }
+
+    .grey{
+        margin-top: 50px;
+        height: 80px;
+        width: 100px;
+        background-color: grey;
+    }
+    .grey:hover{
+        width: 450px;
+        transition-timing-function: ease-in-out;
+        transition-duration: 3s;
+    }
+</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS task4</title>
+    </head>
+    <body>
+        <div class = "outerDiv">
+            <h3>Hoverable sideNav buttons</h3>
+            <p><b>Hover over the buttons in the left navigation bar to open them</b></p>
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="red"></div>
+            <div class="grey"></div>
+        </div>
+    </body>
+</html>

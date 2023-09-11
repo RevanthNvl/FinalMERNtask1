@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .outer{
+        border: 2px solid black;
+        width: 600px;
+        height: 450px;
+        flex-direction: column;
+        display: flex;
+    }
+    .dp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    }
+    .det{
+        height: 300px;
+    }
+    .det button{
+        color: white;
+        background-color: green;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .l1{
+        margin-left: 10px;
+    }
+    .det input{
+        margin-left: 10px;
+        width: 97%;
+    }
+    .opt{
+        background-color: rgb(183, 181, 181);
+        display: flex;
+        justify-content: space-between;
+        color: black;
+        height: 40px;
+    }
+    .opt button{
+        background-color: red;
+        color: white;
+        width: 100px;
+    }
+    #ip2{
+        width: auto;
+    }
+</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS task6</title>
+    </head>
+    <body>
+        <div class="outer">
+            <div class="dp">
+                <img src="img1.jpg" alt="Retry">
+            </div>
+
+            <div class="det">
+                <label for="userName" class = "l1"><b>Username</b></label><br>
+                <input type="text" placeholder="Enter Username">
+                <br><br>
+                <label for="Password" class = "l1"><b>Password</b></label><br>
+                <input type="text" placeholder="Enter Password">
+
+                <button style="width: 100%;" onclick="alert('Logging in')">Login</button>
+
+                <input type="checkbox" id = "ip2">
+                <label for="rem">Remember me</label>
+            </div>
+
+            <div class="opt">
+                <button type = "button" onclick="alert('cancelled')">Cancel</button>
+                <p>Forgot <a href="#">Password?</a></p>
+            </div>
+        </div>
+    </body>
+</html>

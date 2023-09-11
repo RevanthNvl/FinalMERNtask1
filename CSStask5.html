@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .outer{
+        border: 2px dashed black;
+        width: 800px;
+        height: 700px;
+        display: flex;
+        justify-content: space-between;
+        background-color: yellow;
+    }
+    .box1{
+        margin: 2px 0px 2px 2px;
+        width: 250px;
+    }
+    .box2{
+        margin: 2px 2px 2px 0px;
+        width: 550px;
+    }
+
+    .items{
+        border: 2px solid black;
+        width: 200px;
+        height: 35px;
+        color: blue;
+        background-color: white;
+        font-size: 20px;
+        margin: 5px 5px 5px 5px;
+        border-right-width: 20px;
+    }
+
+    #it1{
+        margin-top: 100px;
+        color: magenta;
+    }
+
+    .box2 {
+        font-size: 25px;
+        color: rgb(192, 61, 192)
+    }
+    #p3{
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+        border-bottom: 2px dashed purple;
+    }
+</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS task5</title>
+    </head>
+    <body>
+        <div class="outer">
+            <div class = "box1" style="height: 99%;">
+                <div class="items" id="it1">
+                    Home Page
+                </div>
+                <div class="items">
+                    Musings
+                </div>
+                <div class="items">
+                    My town
+                </div>
+                <div class="items">
+                    Links
+                </div>
+            </div>
+
+            <div class = "box2" style="height: 99%;">
+                <h1>My first styled page</h1>
+                <p id = "p1"><b>Welcome to my styled page!</b></p>
+                <p id = "p2">It lacks images, but at least it has style. And it has links, even if they don't go anywhere...</p>
+                <p id = "p3">There should be more here, but I don't know what yet.</p>
+                <p id = "p4">Made 5 April 2004 <br> by myself.</p>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .outer{
+        border: 2px solid transparent;
+
+        width: 800px;
+        height: 600px;
+        background-color: rgb(193, 42, 120);
+
+    }
+    .inner{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: 540px;
+        background-color: rgb(104, 4, 59);
+        color: white;
+        font-size: 25px;
+    }
+    label, input, select{
+        position: relative;
+        left: 100px;
+        top: 50px;
+        margin-top: 20px;
+    }
+    label{
+        display: inline-block;
+        width: 100px;
+    }
+    
+    ul{
+        list-style-type: none;
+        font-size: 20px;
+        display: inline;
+    }
+    li{
+        display: inline;
+    }
+    select{
+        display: inline;
+    }
+    
+</style>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS task7</title>
+    </head>
+    <body>
+        <div class="outer">
+            
+            <div class="inner">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="your name" style="width: 45%; height: 25px;"><br>
+
+                <label for="Email">Email:</label>
+                <input type="text" placeholder="your name" style="width: 45%; height: 25px;"><br>
+
+                <label for="Password">Password:</label>
+                <input type="text" placeholder="your name" style="width: 45%; height: 25px;"><br>
+
+                <label for="PhoneNo">PhoneNo:</label>
+                <input type="text" placeholder="your name" style="width: 45%; height: 25px;"><br>
+
+                <label for="Gender">Gender:</label>
+                <ul>
+                    <li><input type="checkbox"></li>
+                    <label for="male">Male</label>
+                    <li><input type="checkbox"></li>
+                    <label for="Female">Female</label>
+                    <li><input type="checkbox"></li>
+                    <label for="Others">Others</label>
+                </ul>
+                <br>
+
+                <label for="lang">Language:</label>
+                <select name="language" style="width: 45%; height: 25px;">
+                    <option>Choose your language</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="Telugu">Telugu</option>
+                </select>
+                <br>
+                <label for="Zip code">Zip code:</label>
+                <input type="text"  style="width: 45%; height: 25px;"><br>
+
+                <label for="About">About:</label>
+                <input type="text"  style="width: 45%; height: 25px;"><br>
+            </div>
+        </div>
+
+    </body>
+</html>
